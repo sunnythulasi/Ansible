@@ -1,2 +1,6 @@
-first example 
-second example
+---
+- hosts: TestNode
+  tasks:
+    - name: update
+      shell: apt-get update
+      sudo: yes
